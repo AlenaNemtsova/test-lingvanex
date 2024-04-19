@@ -1,0 +1,247 @@
+.travel {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.travel__title {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  font-size: var(--fs-4xl);
+  font-weight: var(--fw-black);
+  text-align: center;
+  line-height: 1;
+  letter-spacing: -3.5px;
+}
+
+.travel__text {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-family: Manrope, sans-serif;
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-regular);
+  text-align: center;
+  letter-spacing: -0.18px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 20px 93px;
+  margin-bottom: 80px;
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semibold);
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 12px;
+}
+
+.title {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: var(--fs-3xl);
+  font-weight: var(--fw-black);
+  line-height: 1;
+  letter-spacing: -3px;
+  text-align: center;
+}
+
+.text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-regular);
+  text-align: center;
+  letter-spacing: -0.18px;
+}
+
+.solution__title {
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+.solution__text {
+  margin-bottom: 70px;
+}
+
+.solution__cards-wrapper {
+  gap: 20px;
+  margin-bottom: 64px;
+}
+
+.solution-card {
+  width: 400px;
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+}
+
+.solution-card__content {
+  padding: 24px 16px 16px;
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-black);
+  line-height: 1;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.solution__item-text {
+  margin-bottom: 16px;
+}
+
+.users__title {
+  padding-top: 70px;
+  padding-bottom: 32px;
+}
+
+.users__text {
+  margin-bottom: 64px;
+}
+
+.users__buttons-wrapper {
+  margin-bottom: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.users__button {
+  padding: 16px 32px;
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-semibold);
+  line-height: 1;
+  letter-spacing: -0.5px;
+  color: var(--black);
+  border: none;
+  border-radius: 12px;
+  background-color: var(--lightblue);
+}
+
+.users__button.active {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.users__cards-wrapper {
+  margin-bottom: 120px;
+}
+
+.users-card {
+  max-width: 1140px;
+  position: relative;
+  border: 2px solid var(--smokygray);
+  border-radius: 32px;
+  box-shadow: var(--shadow-2);
+}
+
+.users-card::before,
+.users-card::after {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid var(--smokygray);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.users-card::before {
+  width: 90%;
+  height: 30px;
+  box-shadow: var(--shadow-3);
+  left: 5%;
+  top: 100%;
+}
+
+.users-card::after {
+  width: 85%;
+  height: 30px;
+  box-shadow: var(--shadow-4);
+  left: 7%;
+  top: 106%;
+}
+
+.users-card__content {
+  display: none;
+}
+
+.users-card__content.active {
+  padding: 42px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.users-card__title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  text-align: left;
+  max-width: 13ch;
+}
+
+.users-card__text {
+  text-align: left;
+}
+
+.card li {
+  max-width: 40ch;
+}
+
+li {
+  list-style-type: disc;
+}
+
+.users-card__img {
+  width: 507px;
+}
+
+.users-card__img img {
+  width: 100%;
+  height: auto;
+  border-radius: 32px;
+}
+
+.purposes {
+  margin-bottom: 80px;
+  background-color: var(--lightblue);
+}
+
+.purposes__title {
+  padding-top: 64px;
+  padding-bottom: 70px;
+}
+
+.purposes__grid-wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.purposes-item {
+  width: 295px;
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.purposes-item__title {
+  margin-bottom: 0;
+}
+
+.purposes-item__text {
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
