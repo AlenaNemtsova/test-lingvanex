@@ -5,6 +5,7 @@
 }
 
 body {
+  min-width: 360px;
   height: 100svh;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
@@ -30,4 +31,41 @@ a {
   max-width: 1270px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 20px 93px;
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semibold);
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: var(--blue-hover);
+}
+
+.title {
+  margin: 0 auto;
+  font-size: var(--fs-6xl);
+  font-weight: var(--fw-black);
+  line-height: 1;
+  letter-spacing: -3px;
+  text-align: center;
+}
+
+.text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-regular);
+  text-align: center;
+  letter-spacing: -0.18px;
 }
