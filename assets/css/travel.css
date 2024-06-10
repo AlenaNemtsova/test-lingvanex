@@ -53,16 +53,6 @@
   box-shadow: var(--shadow);
 }
 
-.subtitle {
-  margin-top: 0;
-  margin-bottom: 12px;
-  font-size: var(--fs-3xl);
-  font-weight: var(--fw-black);
-  line-height: 1;
-  letter-spacing: -1px;
-  text-align: center;
-}
-
 .solution__item-text {
   margin-bottom: 16px;
 }
@@ -237,12 +227,6 @@ li {
 
   .users-card__content.active {
     flex-direction: column;
-  }
-
-  .users-card::after {
-    width: 83%;
-    left: 8%;
-    top: 104%;
   }
 }
 
