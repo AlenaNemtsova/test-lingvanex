@@ -106,10 +106,6 @@
   box-shadow: var(--shadow-2);
 }
 
-.users-card ul {
-  padding-left: 20px;
-}
-
 .users-card__content {
   padding: 42px;
   display: none;
@@ -126,7 +122,12 @@
 }
 
 .users-card__description ul {
+  padding-left: 20px;
   padding-right: 50px;
+}
+
+.users-card__description li {
+  list-style-type: disc;
 }
 
 .users-card__title {
@@ -137,10 +138,6 @@
 
 .users-card__text {
   text-align: left;
-}
-
-li {
-  list-style-type: disc;
 }
 
 .users-card__img {
