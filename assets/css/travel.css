@@ -192,17 +192,15 @@ li {
   margin-bottom: 70px;
 }
 
-.purposes__wrapper {
+.purposes__list {
   max-width: 950px;
   margin: 0 auto;
   margin-bottom: 70px;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 56px 16px;
 }
 
-.purposes-item {
+.purposes__item {
   width: 295px;
   display: flex;
   flex-direction: column;
@@ -210,11 +208,11 @@ li {
   gap: 14px;
 }
 
-.purposes-item__title {
+.purposes__item-title {
   margin-bottom: 0;
 }
 
-.purposes-item__text {
+.purposes__item-text {
   margin-bottom: 0;
   padding-left: 30px;
   padding-right: 30px;
@@ -231,6 +229,10 @@ li {
 
   .subtitle {
     font-size: var(--fs-2xl);
+  }
+
+  .purposes__item-title {
+    width: 13ch;
   }
 
   .users-card__content.active {
@@ -265,6 +267,10 @@ li {
   .subtitle {
     font-size: var(--fs-xl);
     letter-spacing: -0.2px;
+  }
+
+  .purposes__item-title {
+    width: 100%;
   }
 
   .text,
